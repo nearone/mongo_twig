@@ -1,0 +1,9 @@
+<div class="post">
+    <h2 class="title"><a href="#">{{ aArticle.title }} </a></h2>
+    <p class="meta">Posted by <a href="#">{{ aArticle.author.firstname }} {{ aArticle.author.lastname }}</a> on {{ aArticle.created }}
+        &nbsp;&bull;&nbsp; <a href="#" class="comments">Comments (64)</a> &nbsp;&bull;&nbsp; <a href="#" class="permalink">Full article</a></p>
+    <div class="entry">
+        <p><img src="{{ aArticle.picture }}" width="800" height="300" alt="" /></p>
+        <p>{{ aArticle.text }}</p>
+    </div>
+</div>
